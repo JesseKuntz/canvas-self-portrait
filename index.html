@@ -1,0 +1,35 @@
+<!DOCTYPE HTML>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <title>Self Portrait</title>
+  <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+  <div id="mainWindow">
+    <h3 class="titleBar">Self Portrait</h3>
+
+    <div id="controls">
+      <div id="sliderdiv">
+        <p id="slidertitle">Magic Size</p>
+        <input id="slider1" type="range" min="10" max="50" value="20" />
+        <p id="pointcountpar"><span id="pointcount">20</span> magics</p>
+      </div>
+      <input id="checkbox1" type="checkbox">Blue Magic</input>
+      <button id="magicbutton" type="submit" >Turn Magic On!</button>
+    </div>
+
+    <canvas id="canvas1" width="342" height="342">
+      <p>Your browser doesn't support the HTML5 canvas element.</p>
+    </canvas>
+
+    <div style="display:none;">
+        <img id="source" src="draco.jpg">
+    </div>
+  </div>
+
+  <!-- javascript, loaded at the end to make the page appear faster -->
+  <script type="text/javascript" src="https://cs.calvin.edu/curriculum/cs/352/files/js/jquery-1.4.4.min.js"></script>
+  <script type="text/javascript" src="https://cs.calvin.edu/curriculum/cs/352/files/js/sylvester.js"></script>
+  <script type="text/javascript" src="script.js"></script>
+</body>
+</html>

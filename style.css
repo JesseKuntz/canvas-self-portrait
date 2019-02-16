@@ -1,0 +1,81 @@
+body {
+    background-color:#c88;
+}
+
+#mainWindow {
+    background-color:#ddd;
+    font-family:arial;
+    width:420pt;
+    height:300pt;
+    position:absolute;
+    left: 50%;
+    margin-left: -210pt;
+    border: solid #ddd 2px;
+    -webkit-box-shadow: 5pt 5pt 10pt #666;
+    -moz-box-shadow: 5pt 5pt 10pt #666;
+}
+
+.titleBar {
+    text-align:center;
+    font-family:arial;
+    font-size:12pt;
+    background-color:#333399;
+    color:white;
+    margin-top:0;
+    margin-bottom:0pt;
+    padding:2pt;
+}
+
+/* the drawing canvas */
+#canvas1 {
+    position:absolute;
+    left:150pt;
+    top:30pt;
+    background-color:white;
+    -webkit-box-shadow: inset 2px 2px 2px #666;
+    -moz-box-shadow: inset 2px 2px 2px #666;
+}
+
+/* control box */
+#controls {
+    position:absolute; left:30px; top:40px; width:140px; height:326px;
+    background-color:white; padding:6pt; -webkit-box-shadow: inset 2px
+    2px 2px #666; -moz-box-shadow: inset 2px 2px 2px #666;
+}
+
+#sliderdiv {
+    margin-top:.6in;
+    margin-left:.2in;
+    margin-right:.2in;
+}
+
+#slidertitle {
+    margin-top:0pt;
+    margin-bottom:12pt;
+    font-weight:bold;
+    text-align:center;
+    font-size:120%;
+}
+
+#slider1 {
+    position:relative;
+    width:105px;
+    top:-16px;
+    left:-4pt;
+}
+
+#pointcountpar {
+    position:relative;
+    font-size:90%;
+    top:-24pt;
+    text-align:center;
+}
+
+#checkbox1 {
+    margin-left: 14px;
+}
+
+#magicbutton {
+    font-size:100%;
+    margin:14px;
+}
