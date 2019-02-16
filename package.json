@@ -1,0 +1,23 @@
+{
+  "name": "canvas-self-portrait",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JesseKuntz/canvas-self-portrait.git"
+  },
+  "author": "Jesse Kuntz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JesseKuntz/canvas-self-portrait/issues"
+  },
+  "homepage": "https://github.com/JesseKuntz/canvas-self-portrait#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
